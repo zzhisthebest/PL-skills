@@ -65,4 +65,4 @@ Record fresh_name {atom : Type}
 
 ## 来源
 
-精化自 Zhe Zhou 的[笔记 17](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/17_core_ln_proof_patterns.md)、[笔记 24](https://github.com/zhezhouzz/UnderLogicAndType/blob/8b82b6ffe52505f398f1cc3b1bb81daf88597607/skills/24_typing_naming_refactor.md)及[笔记 27](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/27_recent_ln_denotation_failure_patterns.md)。采用 MIT 许可证，见 `LICENSE`。
+精化自 Zhe Zhou 的[笔记 17](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/17_core_ln_proof_patterns.md)、[笔记 24](https://github.com/zhezhouzz/UnderLogicAndType/blob/8b82b6ffe52505f398f1cc3b1bb81daf88597607/skills/24_typing_naming_refactor.md)及[笔记 27](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/27_recent_ln_denotation_failure_patterns.md)。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

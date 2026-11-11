@@ -33,4 +33,4 @@ description: 排查 Rocq 的 notation、implicit arguments、Section discharge �
 
 ## 来源
 
-精化自 Zhe Zhou 的[笔记 03–05、07、14](https://github.com/zhezhouzz/UnderLogicAndType/tree/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills)及[笔记 26–27](https://github.com/zhezhouzz/UnderLogicAndType/tree/b82b315cb5089303528248fc9e705badf0a5a620/skills)。采用 MIT 许可证，见 `LICENSE`。
+精化自 Zhe Zhou 的[笔记 03–05、07、14](https://github.com/zhezhouzz/UnderLogicAndType/tree/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills)及[笔记 26–27](https://github.com/zhezhouzz/UnderLogicAndType/tree/b82b315cb5089303528248fc9e705badf0a5a620/skills)。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

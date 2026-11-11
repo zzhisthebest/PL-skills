@@ -43,4 +43,4 @@ description: 为 well-formed 语义对象、partial algebra operations 和 order
 
 ## 来源
 
-精化自 Zhe Zhou 的[笔记 11–12](https://github.com/zhezhouzz/UnderLogicAndType/tree/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills)及[笔记 20](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/20_partial_algebra_remaining.md)。历史待办清单不作为当前指令。采用 MIT 许可证，见 `LICENSE`。
+精化自 Zhe Zhou 的[笔记 11–12](https://github.com/zhezhouzz/UnderLogicAndType/tree/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills)及[笔记 20](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/20_partial_algebra_remaining.md)。历史待办清单不作为当前指令。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

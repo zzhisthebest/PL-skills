@@ -37,4 +37,4 @@ description: 对照给定论文或 proof draft 审阅 PL 形式化，区分语�
 
 ## 来源
 
-精化自 Zhe Zhou 的[笔记 15](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/15_definition_sanity_check.md)及[笔记 25](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/25_proof_style_and_local_solvers.md)中的 proof draft 指导。采用 MIT 许可证，见 `LICENSE`。
+精化自 Zhe Zhou 的[笔记 15](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/15_definition_sanity_check.md)及[笔记 25](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/25_proof_style_and_local_solvers.md)中的 proof draft 指导。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

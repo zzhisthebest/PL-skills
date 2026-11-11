@@ -86,6 +86,6 @@ msubst (insert x v env) (open body (fvar x))
 
 ## 来源
 
-精化自 Zhe Zhou 的[笔记 16、21](https://github.com/zhezhouzz/UnderLogicAndType/tree/8b82b6ffe52505f398f1cc3b1bb81daf88597607/skills)，以及笔记 22 的两种设计：[atom-open 版本](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/22_choice_instantiation_migration.md)、[context-substitution 版本](https://github.com/zhezhouzz/UnderLogicAndType/blob/b877dcffd941c3f79e1ca6d56d2ad144a2a57511/skills/22_choice_instantiation_migration.md)。采用 MIT 许可证，见 `LICENSE`。
+精化自 Zhe Zhou 的[笔记 16、21](https://github.com/zhezhouzz/UnderLogicAndType/tree/8b82b6ffe52505f398f1cc3b1bb81daf88597607/skills)，以及笔记 22 的两种设计：[atom-open 版本](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/22_choice_instantiation_migration.md)、[context-substitution 版本](https://github.com/zhezhouzz/UnderLogicAndType/blob/b877dcffd941c3f79e1ca6d56d2ad144a2a57511/skills/22_choice_instantiation_migration.md)。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。
 
 Opening 桥接等式的前提另对照了原实现中的 [MsubstIntro](https://github.com/zhezhouzz/UnderLogicAndType/blob/8b82b6ffe52505f398f1cc3b1bb81daf88597607/CoreLang/theories/InstantiationProps.v#L910) 和 [msubst_open_body_result](https://github.com/zhezhouzz/UnderLogicAndType/blob/8b82b6ffe52505f398f1cc3b1bb81daf88597607/ChoiceTyping/theories/LetResultWorld.v#L460)。

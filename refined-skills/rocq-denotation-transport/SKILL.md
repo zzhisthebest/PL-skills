@@ -57,4 +57,4 @@ Function 或 proposition extensionality 可以帮助得到 Leibniz equality，�
 
 ## 来源
 
-精化自 Zhe Zhou 的[笔记 13、20、23、26–27](https://github.com/zhezhouzz/UnderLogicAndType/tree/b82b315cb5089303528248fc9e705badf0a5a620/skills)。保留历史语义编码中的接口设计经验，不把旧定义设为强制要求。采用 MIT 许可证，见 `LICENSE`。
+精化自 Zhe Zhou 的[笔记 13、20、23、26–27](https://github.com/zhezhouzz/UnderLogicAndType/tree/b82b315cb5089303528248fc9e705badf0a5a620/skills)。保留历史语义编码中的接口设计经验，不把旧定义设为强制要求。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

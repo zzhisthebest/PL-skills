@@ -43,4 +43,4 @@ description: 定位 Rocq 编译缓慢的原因，区分 proof search 与 import/
 
 ## 来源
 
-精化自 Zhe Zhou 的[笔记 25](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/25_proof_style_and_local_solvers.md)。未保留项目专属的文件行数限制和强制 solver 风格。采用 MIT 许可证，见 `LICENSE`。
+精化自 Zhe Zhou 的[笔记 25](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/25_proof_style_and_local_solvers.md)。未保留项目专属的文件行数限制和强制 solver 风格。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

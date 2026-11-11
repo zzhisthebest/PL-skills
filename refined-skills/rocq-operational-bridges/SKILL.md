@@ -50,4 +50,4 @@ description: 为 Rocq soundness 证明构建 operational helper lemmas，将 syn
 
 ## 来源
 
-精化自 Zhe Zhou 的[笔记 06](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/06_anf_and_tletapp.md)、[笔记 19](https://github.com/zhezhouzz/UnderLogicAndType/blob/8b82b6ffe52505f398f1cc3b1bb81daf88597607/skills/19_operational_reduction_helpers.md)及[笔记 23](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/23_expression_result_semantics.md)。未把历史版本的 constructor／formula 名称强加给其他语言。采用 MIT 许可证，见 `LICENSE`。
+精化自 Zhe Zhou 的[笔记 06](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/06_anf_and_tletapp.md)、[笔记 19](https://github.com/zhezhouzz/UnderLogicAndType/blob/8b82b6ffe52505f398f1cc3b1bb81daf88597607/skills/19_operational_reduction_helpers.md)及[笔记 23](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/23_expression_result_semantics.md)。未把历史版本的 constructor／formula 名称强加给其他语言。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。
