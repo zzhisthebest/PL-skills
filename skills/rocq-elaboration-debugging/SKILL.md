@@ -30,7 +30,3 @@ description: 排查 Rocq 的 notation、implicit arguments、Section discharge �
 若多个证明需要相同的 wrapper 展开，提取一个小型局部 normalizer 或有名字的等式。只展开有关 wrapper，不要为解决 elaboration 问题展开整套语义。
 
 当类型足以确定 instance 时，泛型 opening typeclass 可以让不同 syntax 类别共享 notation；无法确定时，仍保留显式操作。类别专属 notation 本身并没有错。
-
-## 来源
-
-精化自 Zhe Zhou 的[笔记 03–05、07、14](https://github.com/zhezhouzz/UnderLogicAndType/tree/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills)及[笔记 26–27](https://github.com/zhezhouzz/UnderLogicAndType/tree/b82b315cb5089303528248fc9e705badf0a5a620/skills)。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

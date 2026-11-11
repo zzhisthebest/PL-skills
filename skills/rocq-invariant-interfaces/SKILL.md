@@ -40,7 +40,3 @@ description: 为 well-formed 语义对象、partial algebra operations 和 order
 会覆盖／删除条目的 renaming 通常不是双射。证明 equivariance 时，可考虑 swap 或 finite permutation，再证明具体语义保持该操作。仅有双射性，并不能推出所有代数定律。
 
 若多个 quantifier cases 重复相同论证，提取可复用的 domain/restriction transport 引理。保留数学上必要的 side conditions，只消除重复 bookkeeping。
-
-## 来源
-
-精化自 Zhe Zhou 的[笔记 11–12](https://github.com/zhezhouzz/UnderLogicAndType/tree/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills)及[笔记 20](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/20_partial_algebra_remaining.md)。历史待办清单不作为当前指令。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

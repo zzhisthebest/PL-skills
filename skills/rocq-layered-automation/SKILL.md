@@ -47,7 +47,3 @@ Normalization 后，使用有关 hint database 进行有界搜索。`eauto n` �
 - 保留提供稳定抽象边界的薄引理。只有不破坏预期 API 时，才内联简单 wrappers。
 
 重构后编译受影响的证明；若目标是提速，则比较耗时。脚本更短本身不能证明检查更快或更稳定。
-
-## 来源
-
-精化自 Zhe Zhou 的[笔记 18](https://github.com/zhezhouzz/UnderLogicAndType/blob/8b82b6ffe52505f398f1cc3b1bb81daf88597607/skills/18_tactic_migration.md)及[笔记 25–27](https://github.com/zhezhouzz/UnderLogicAndType/tree/b82b315cb5089303528248fc9e705badf0a5a620/skills)。已将项目专属 solver 名称和固定搜索深度偏好通用化。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

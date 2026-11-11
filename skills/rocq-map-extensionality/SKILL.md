@@ -46,7 +46,3 @@ dom(m) ⊆ X  ->  restrict(m, X) = m
 `X` 上的 store invariant 只保证 `X` 内条目或受限 store 的性质，不保证 `X` 外的 typing、closedness 或 local closure。调用环境引理前，检查它要求整个 store 满足条件，还是只要求相关 projection。
 
 对键经过 renaming 的 map，使用 lookup/domain transport 前先建立 injectivity 或明确碰撞处理方式。会覆盖条目的 renaming 与 permutation 不具有相同的性质。
-
-## 来源
-
-精化自 Zhe Zhou 的[笔记 16](https://github.com/zhezhouzz/UnderLogicAndType/blob/8b82b6ffe52505f398f1cc3b1bb81daf88597607/skills/16_store_proof_refactoring.md)及[笔记 27](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/27_recent_ln_denotation_failure_patterns.md)。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

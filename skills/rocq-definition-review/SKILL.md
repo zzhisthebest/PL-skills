@@ -34,7 +34,3 @@ description: 对照给定论文或 proof draft 审阅 PL 形式化，区分语�
 - 最终定理具有预期陈述，且 assumptions 符合要求。
 
 经授权修改语义后，重新构建受影响的依赖链，并检查对外定理的 assumptions。即使代码编译通过，也应明确指出尚未验证的对应关系。
-
-## 来源
-
-精化自 Zhe Zhou 的[笔记 15](https://github.com/zhezhouzz/UnderLogicAndType/blob/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills/15_definition_sanity_check.md)及[笔记 25](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/25_proof_style_and_local_solvers.md)中的 proof draft 指导。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

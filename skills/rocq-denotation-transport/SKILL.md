@@ -54,7 +54,3 @@ Function 或 proposition extensionality 可以帮助得到 Leibniz equality，�
 - 描述结果的 predicate 不一定能推出原始 body locally closed。若定义未包含该保证，需要单独提供 regularity。
 - 如果证明成功只是因为返回的自由变量无法满足 closed-result predicate，结论可能是 vacuous。检查定理是否描述了预期的 substitution 和 execution。
 - 旧分支的 denotation 只是可参考的例子，不是当前分支的 specification。
-
-## 来源
-
-精化自 Zhe Zhou 的[笔记 13、20、23、26–27](https://github.com/zhezhouzz/UnderLogicAndType/tree/b82b315cb5089303528248fc9e705badf0a5a620/skills)。保留历史语义编码中的接口设计经验，不把旧定义设为强制要求。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

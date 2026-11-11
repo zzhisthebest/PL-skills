@@ -1,6 +1,6 @@
 # PL-skills
 
-用于 Rocq／PL 形式化证明的 11 个 skills，精化自 [Zhe Zhou 的 UnderLogicAndType](https://github.com/zhezhouzz/UnderLogicAndType)。各技能保留具体来源链接。
+用于 Rocq／PL 形式化证明的 11 个 skills，精化自 [Zhe Zhou 的 UnderLogicAndType](https://github.com/zhezhouzz/UnderLogicAndType)。各技能的元数据中保留作者和来源仓库。
 
 ## 技能
 

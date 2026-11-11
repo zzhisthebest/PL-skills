@@ -40,7 +40,3 @@ description: 定位 Rocq 编译缓慢的原因，区分 proof search 与 import/
 ## 验证改动
 
 用相同配置重新构建受影响的下游文件，并比较耗时。区分缓存已热的增量构建与 clean build。若某处保留了看似不够简洁的显式证明，只有在它确实用于解决已测得的性能问题时，才写简短注释说明原因。
-
-## 来源
-
-精化自 Zhe Zhou 的[笔记 25](https://github.com/zhezhouzz/UnderLogicAndType/blob/b82b315cb5089303528248fc9e705badf0a5a620/skills/25_proof_style_and_local_solvers.md)。未保留项目专属的文件行数限制和强制 solver 风格。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。

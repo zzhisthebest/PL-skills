@@ -37,7 +37,3 @@ description: 实现或修复 Rocq 递归 syntax 操作、互递归 equality deci
 ## Constructor premises
 
 Constructor premise 中的 `let '(a, b) := f x in ...` 是合法的，但可能使 inversion 或 dependent matching 不易处理。若实际遇到此问题，可考虑显式参数 `a`、`b`，并加入前提 `f x = (a, b)`。检查它与原规则的等价性，不要机械替换所有 constructor lets。
-
-## 来源
-
-精化自 Zhe Zhou 的 [UnderLogicAndType 笔记 01–02、08–10](https://github.com/zhezhouzz/UnderLogicAndType/tree/fc97016915ab8a9e24a24bb97e453d2b4d957bdd/skills)，并结合笔记 17 中构造性的互递归证明方法。收窄了原项目约定的适用范围，并纠正了关于 admitted instance 的建议。采用 MIT 许可证，见仓库根目录的 [LICENSE](../../LICENSE)。
