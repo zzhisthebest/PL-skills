@@ -1,6 +1,30 @@
-# UnderLogicAndType skills 原始汇总
+# UnderLogicAndType skills
 
-来源：[Zhe Zhou / UnderLogicAndType](https://github.com/zhezhouzz/UnderLogicAndType)。本仓库用于汇总、审阅并后续精化原项目的证明经验，当前仅做收集与去重，未改写原文，也未上传 Skills Hub。
+来源：[Zhe Zhou / UnderLogicAndType](https://github.com/zhezhouzz/UnderLogicAndType)。本仓库保留全部分支的去重原文，并将其中可复用的 Rocq／PL 证明经验精化为独立 skills。当前是待审阅版本，尚未上传 Skills Hub。
+
+## 精化版
+
+原始 **27 个主题、41 份不同版本**合并为 **11 个技能**。按使用场景组织，而非按原项目的文件和开发阶段组织。技能正文使用中文，PL 术语、代码和标识符保留英文；下面的清单和[精化说明](REFINEMENT.md)便于人工审阅。
+
+每个技能目录包含 `SKILL.md` 和原 MIT 许可证，可独立交付；未要求安装特定 MCP、额外 agent 或通知服务。涉及 stdpp 等库时，需要目标项目已有对应依赖。
+
+| 技能 | 用途 |
+|---|---|
+| [递归定义与归纳接口](refined-skills/rocq-recursive-definitions/SKILL.md) | mutual recursion、EqDecision、strict positivity、constructor premise |
+| [Elaboration 与 notation 排错](refined-skills/rocq-elaboration-debugging/SKILL.md) | typeclass 歧义、Section 参数、open／shift notation |
+| [携带不变量的接口](refined-skills/rocq-invariant-interfaces/SKILL.md) | well-formed subtype、partial operations、order、proof equality |
+| [定义与证明路线审阅](refined-skills/rocq-definition-review/SKILL.md) | 对照论文、审阅 proof draft、明确未完成义务 |
+| [Locally nameless 证明](refined-skills/rocq-locally-nameless/SKILL.md) | cofinite binders、归纳、freshness、regularity、strengthening |
+| [环境替换](refined-skills/rocq-environment-substitution/SKILL.md) | multi-substitution、closure、restriction、agreement、迁移边界 |
+| [Map 与 store 的逐点证明](refined-skills/rocq-map-extensionality/SKILL.md) | lookup extensionality、domain、restriction、compatibility |
+| [Operational semantics 桥接引理](refined-skills/rocq-operational-bridges/SKILL.md) | evaluation 的组合／分解、ANF、primitive、结果谓词 |
+| [Denotation 的规范化与 transport](refined-skills/rocq-denotation-transport/SKILL.md) | shallow predicates、setoid、store、fuel-indexed induction |
+| [分层 proof automation](refined-skills/rocq-layered-automation/SKILL.md) | 局部 normalization、hint databases、solver 上下文与循环 |
+| [编译性能定位](refined-skills/rocq-build-performance/SKILL.md) | 区分 proof search 与 import/loading 开销 |
+
+精化原则：保留具体的证明手法及适用前提；合并重复经验；移除项目路径、私有通知、阶段性待办；纠正过强或不准确的说法。没有把不同分支相互冲突的定义拼成一套虚构 API。
+
+检查覆盖结构、原文完整性和部分关键技术说法；尚未通过 agent 对照实验验证效果。原文仍逐字保留，以便回查。
 
 ## 收集范围
 
@@ -12,14 +36,17 @@
 
 ## 文件
 
-- `skills/`：去重后的原始笔记，尚未转换为标准 `SKILL.md`。
+- `refined-skills/`：可独立使用的精化版，每个子目录对应一个技能。
+- `skills/`：去重后的原始笔记，仅作来源档案，不是待安装的精化版。
 - `source-indexes/`：各分支原始 `skills/README.md` 的不同版本。
 - [sources.json](sources.json)：全部分支、commit、原始路径、固定版本 GitHub 链接，以及本地文件与来源的对应关系。
 - [LICENSE](LICENSE)：保留原仓库 MIT 许可证及 Zhe Zhou 的版权声明。
+- [REFINEMENT.md](REFINEMENT.md)：原文到技能的对应关系、重要修正和检查范围。
+- [checks/RefinementExamples.v](checks/RefinementExamples.v)：关键技术修正的可编译小例子，不属于安装技能所需文件。
 
-原文含有项目专属定义、路径和历史状态，相关代码并未一并复制；这些内容尚未通用化或逐条验证。原始说明中的相对链接保持原样，必要时通过 `sources.json` 中的来源链接查看原仓库。公开许可证与 Hub 要求的来源方认可记录是两回事；本次收集不代表已完成入库确认。
+原文含有项目专属定义、路径和历史状态，相关代码并未一并复制，不应将原文当作通用指令直接加载。原始说明中的相对链接保持原样，必要时通过 `sources.json` 中的来源链接查看原仓库。公开许可证与 Hub 要求的来源方认可记录是两回事；本仓库不声称已完成入库确认，内部认可凭据不放入公开技能包。
 
-## Skills 清单
+## 原始笔记清单
 
 | 编号 | 原文标题 | 文件 |
 |---|---|---|
