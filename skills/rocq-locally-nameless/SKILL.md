@@ -18,6 +18,19 @@ description: 证明和修复 Rocq 的 locally nameless 基础引理，涉及 cof
 - 归纳前 generalize 会变化的环境、结果类型或 binder indices。按 step 归纳证明 preservation 时，固定外层 typing environment/type 可能使 IH 无法用于内部推导。
 - 如果后续命令依赖某些 constructor 参数或假设，应显式命名。区分 typing premise 与其 induction hypothesis，不要猜 Rocq 自动生成的名字。
 
+## 让 typing substitution 足以支持 opening／preservation
+
+如果后续证明需要用 `Gamma ⊢ u : U` 的程序替换变量，substitution lemma 就不能只接受 `empty ⊢ u : U`。对于普通非依赖 typing，应先证明一般环境版本，形状如下（context extension 的 freshness／well-formedness 前提按实际系统保留）：
+
+```text
+Gamma, x : U ⊢ t : T
+Gamma ⊢ u : U
+---------------------------
+Gamma ⊢ subst x u t : T
+```
+
+空环境版本可通过 weakening 得到。证明 body opening 的 typing 时，先选 fresh `x`，取得 `Gamma, x : U ⊢ open body (fvar x) : T`，再用上述 substitution lemma 和 fresh-opening 等式，将结论改写为 `Gamma ⊢ open body u : T`。不要等到 preservation 的 beta case 才发现 substitution lemma 的前提过强。
+
 ## Cofinite binder cases
 
 选择一个 representative，使其对证明所需集合的有限并集 fresh：包括规则的排除集、相关 syntax 的 free variables，以及 substitution 或 context 引理要求避开的名字／domains。仅对规则排除集 fresh，不代表满足其他 freshness 条件。
